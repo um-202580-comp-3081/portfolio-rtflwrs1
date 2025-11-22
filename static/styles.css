@@ -1,0 +1,64 @@
+/* Work Page Styling */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0.75rem;
+}
+
+.tech-list li {
+  background: #f3f3f3;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.cta-link {
+  font-weight: bold;
+}
+
+.back-link {
+  margin-top: 2rem;
+  display: inline-block;
+}
